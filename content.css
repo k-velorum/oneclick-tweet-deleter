@@ -1,0 +1,55 @@
+.octd-delete {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  flex: 0 0 34px;
+  margin: 0 4px 0 0;
+  padding: 7px;
+  border: 0;
+  border-radius: 50%;
+  color: #f4212e;
+  background: transparent;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.octd-delete svg { width: 20px; height: 20px; fill: currentColor; }
+.octd-delete:hover { background: rgb(244 33 46 / 12%); }
+.octd-delete:focus-visible { outline: 2px solid currentColor; outline-offset: 2px; }
+.octd-delete:disabled { opacity: .4; cursor: wait; }
+.octd-confirm-label {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.octd-keycap {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
+  min-width: 25px;
+  height: 25px;
+  padding: 0 6px;
+  border: 1px solid currentColor;
+  border-bottom-width: 3px;
+  border-radius: 5px;
+  background: rgb(127 127 127 / 16%);
+  color: inherit;
+  font: 600 13px/1 ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+.octd-notice {
+  position: fixed;
+  bottom: 28px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2147483647;
+  max-width: min(520px, 85vw);
+  padding: 14px 20px;
+  border-radius: 12px;
+  background: #b91c2a;
+  color: white;
+  box-shadow: 0 4px 24px #0004;
+  font: 14px/1.5 system-ui, sans-serif;
+}

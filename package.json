@@ -1,0 +1,9 @@
+{
+  "name": "oneclick-tweet-deleter",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "engines": { "node": ">=22" },
+  "scripts": { "test": "node --test", "check": "node --check content.js" },
+  "devDependencies": { "jsdom": "^26.1.0" }
+}

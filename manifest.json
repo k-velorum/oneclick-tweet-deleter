@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "One Click Tweet Deleter",
+  "version": "1.0.0",
+  "description": "自分のXの投稿に削除ボタンを追加。通常はY/N確認、Shift＋クリックで確認を省略します。",
+  "content_scripts": [{
+    "matches": ["https://x.com/*", "https://twitter.com/*"],
+    "js": ["content.js"],
+    "css": ["content.css"],
+    "run_at": "document_idle"
+  }]
+}
